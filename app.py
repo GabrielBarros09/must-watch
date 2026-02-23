@@ -63,3 +63,6 @@ def update(idItem):
         itens=itens,
         item_selecionado=item_selecionado
     )
+
+    if __name__ == "__main__":
+        app.run(debug=True)
